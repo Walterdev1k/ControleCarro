@@ -1,29 +1,89 @@
-### IntelliJ IDEA ###
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Diretórios de build
+target/
+build/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+dist/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/usage.statistics.xml
+.idea/caches
 
-### VS Code ###
-.vscode/
+# Logs
+*.log
+logs/
+*.logs
+*.log.*
 
-### Mac OS ###
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Sistema
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de configuração local
+*.properties
+*.settings
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*.rej
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# MacOS
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Windows
+[Tt]humbs.db
+Desktop.ini
