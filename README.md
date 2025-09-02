@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ControleCarro
 
 Sistema de controle de veículos desenvolvido em Java.
@@ -15,3 +16,6 @@ Sistema de controle de veículos desenvolvido em Java.
 ```bash
 javac src/*.java
 java -cp src Main
+=======
+# ControleCarro
+>>>>>>> 345728057b16fa8dd08f6665248a8ff7fedab6f0
